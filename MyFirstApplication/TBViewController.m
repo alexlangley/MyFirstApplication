@@ -28,6 +28,8 @@
 
 - (IBAction)buttonPressed:(UIButton *)sender
 {
-    self.titleLabel.text = @"Hello Class";
+    self.titleLabel.text = self.textField.text;
+    [self.textField resignFirstResponder];
 }
+
 @end

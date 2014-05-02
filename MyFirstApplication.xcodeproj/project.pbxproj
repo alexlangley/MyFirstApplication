@@ -21,6 +21,7 @@
 		D2EA84081912E9B0004A2673 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EA83EA1912E9B0004A2673 /* UIKit.framework */; };
 		D2EA84101912E9B0004A2673 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2EA840E1912E9B0004A2673 /* InfoPlist.strings */; };
 		D2EA84121912E9B0004A2673 /* MyFirstApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2EA84111912E9B0004A2673 /* MyFirstApplicationTests.m */; };
+		FACFF1E21914444A00F185BA /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FACFF1E11914444A00F185BA /* images-2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2EA840D1912E9B0004A2673 /* MyFirstApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		D2EA840F1912E9B0004A2673 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2EA84111912E9B0004A2673 /* MyFirstApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstApplicationTests.m; sourceTree = "<group>"; };
+		FACFF1E11914444A00F185BA /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		D2EA83ED1912E9B0004A2673 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FACFF1E11914444A00F185BA /* images-2.jpeg */,
 				D2EA83EE1912E9B0004A2673 /* MyFirstApplication-Info.plist */,
 				D2EA83EF1912E9B0004A2673 /* InfoPlist.strings */,
 				D2EA83F21912E9B0004A2673 /* main.m */,
@@ -231,6 +234,7 @@
 			files = (
 				D2EA83FF1912E9B0004A2673 /* Images.xcassets in Resources */,
 				D2EA83F11912E9B0004A2673 /* InfoPlist.strings in Resources */,
+				FACFF1E21914444A00F185BA /* images-2.jpeg in Resources */,
 				D2EA83FA1912E9B0004A2673 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,9 +381,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstApplication/MyFirstApplication-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstApplication/MyFirstApplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,9 +396,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstApplication/MyFirstApplication-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstApplication/MyFirstApplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +465,7 @@
 				D2EA84171912E9B0004A2673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2EA84181912E9B0004A2673 /* Build configuration list for PBXNativeTarget "MyFirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				D2EA841A1912E9B0004A2673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
